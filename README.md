@@ -1,7 +1,7 @@
 # PHP Linter
 PHP linter based on PSR-2 and PSR-12.
 
-## Installation
+## Install
 
 ```
 {
@@ -14,7 +14,7 @@ PHP linter based on PSR-2 and PSR-12.
 }
 ```
 
-Install the composer package: `composer require energych/coding-style-guide-php`
+Install the composer package: `composer require brueggern/php-linter`
 
 Add composer scripts to run the linting/fixing (replace app with the folder(s) you want to lint):
 
