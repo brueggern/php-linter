@@ -21,8 +21,8 @@ Add composer scripts to run the linting/fixing (replace app with the folder(s) y
 ```
 {
     "scripts": {
-        "lint": "coding-style-guide-php app",
-        "lint:fix": "coding-style-guide-php --fix app"
+        "lint": "php-linter app",
+        "lint:fix": "php-linter --fix app"
     }
 }
 ```
