@@ -14,9 +14,5 @@
     ],
     "bin": [
         "bin/php-linter"
-    ],
-    "scripts": {
-        "lint": "php-linter app",
-        "lint:fix": "php-linter --fix app"
-    }
+    ]
 }
