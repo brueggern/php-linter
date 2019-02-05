@@ -1,0 +1,14 @@
+{
+    "name": "brueggern/php-linter",
+    "description": "PHP coding style guide based on PSR-2 and PSR-12.",
+    "require": {
+        "friendsofphp/php-cs-fixer": "^2.14"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "uegger",
+            "email": "brueggern@gmail.com"
+        }
+    ]
+}

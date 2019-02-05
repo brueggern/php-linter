@@ -1,0 +1,61 @@
+<?php
+
+return PhpCsFixer\Config::create()
+    ->setIndent('    ')
+    ->setLineEnding("\n")
+    ->setUsingCache(true)
+    ->setCacheFile(__DIR__ . '/.php_cs.cache')
+    ->setRules([
+        '@PSR2' => true,
+        'align_multiline_comment' => true,
+        'array_syntax' => ['syntax' => 'short'],
+        'binary_operator_spaces' => true,
+        'braces' => false, // does not work with elseif set to false
+        'cast_spaces' => true,
+        'class_attributes_separation' => ['elements' => ['method']],
+        'concat_space' => ['spacing' => 'none'],
+        'elseif' => false,
+        'include' => true,
+        'linebreak_after_opening_tag' => true,
+        'list_syntax' => true,
+        'lowercase_cast' => true,
+        'method_argument_space' => ['ensure_fully_multiline' => true],
+        'method_chaining_indentation' => true,
+        'multiline_comment_opening_closing' => true,
+        'new_with_braces' => true,
+        'no_blank_lines_after_phpdoc' => true,
+        'no_empty_phpdoc' => true,
+        'no_empty_statement' => true,
+        'no_leading_import_slash' => true,
+        'no_leading_namespace_whitespace' => true,
+        'no_mixed_echo_print' => ['use' => 'echo'],
+        'no_multiline_whitespace_around_double_arrow' => true,
+        'no_spaces_around_offset' => true,
+        'no_trailing_comma_in_singleline_array' => true,
+        'no_unneeded_control_parentheses' => true,
+        'no_unused_imports' => true,
+        'no_useless_else' => true,
+        'no_useless_return' => true,
+        'no_whitespace_before_comma_in_array' => true,
+        'no_whitespace_in_blank_line' => true,
+        'normalize_index_brace' => true,
+        'object_operator_without_whitespace' => true,
+        'ordered_class_elements' => true,
+        'php_unit_strict' => true,
+        'phpdoc_add_missing_param_annotation' => true,
+        'phpdoc_scalar' => true,
+        'phpdoc_types' => true,
+        'psr4' => true,
+        'self_accessor' => true,
+        'semicolon_after_instruction' => true,
+        'short_scalar_cast' => true,
+        'single_blank_line_before_namespace' => true,
+        'single_quote' => true,
+        'space_after_semicolon' => true,
+        'standardize_not_equals' => true,
+        'ternary_to_null_coalescing' => true,
+        'trailing_comma_in_multiline_array' => true,
+        'trim_array_spaces' => true,
+        'whitespace_after_comma_in_array' => true,
+    ])
+;
