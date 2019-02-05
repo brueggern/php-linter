@@ -1,14 +1,22 @@
 {
     "name": "brueggern/php-linter",
     "description": "PHP coding style guide based on PSR-2 and PSR-12.",
+    "type": "library",
     "require": {
         "friendsofphp/php-cs-fixer": "^2.14"
     },
     "license": "MIT",
     "authors": [
         {
-            "name": "uegger",
+            "name": "Nicolas Bruegger",
             "email": "brueggern@gmail.com"
         }
-    ]
+    ],
+    "bin": [
+        "bin/php-linter"
+    ],
+    "scripts": {
+        "lint": "php-linter app",
+        "lint:fix": "php-linter --fix app"
+    }
 }
