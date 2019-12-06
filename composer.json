@@ -3,7 +3,7 @@
     "description": "PHP coding style guide based on PSR-2 and PSR-12.",
     "type": "library",
     "require": {
-        "friendsofphp/php-cs-fixer": "^2.14"
+        "friendsofphp/php-cs-fixer": "^2.16"
     },
     "license": "MIT",
     "authors": [
